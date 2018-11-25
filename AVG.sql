@@ -1,0 +1,8 @@
+SELECT * FROM NBA_PLAYER_ATL.ATL_NBA_PLAYER;
+
+SELECT 
+	Position,
+	AVG(Salary)
+FROM ATL_NBA_PLAYER
+Group by
+	Position;
